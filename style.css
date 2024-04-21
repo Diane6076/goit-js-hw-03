@@ -1,14 +1,16 @@
+.conteiner {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
 img {
     height: 200px;
-    background-color: #f0f0f0;
-}
-
-.img-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-button {
-    margin-top: 20px;
-}
+    margin: 200px 0;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+  }
+  
+  img.loaded {
+    opacity: 2; 
+  }
